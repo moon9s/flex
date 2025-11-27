@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-color: rgb(27, 26, 26);
+}
+
+.flex {
+    padding: 5px;
+    display: flex;
+    color: white;
+    width: 80%;
+    margin: 250px auto;
+
+   
+}
+
+
+.flex > div:first-of-type > div:first-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding: 30px;
+    margin-bottom: 15px;
+     background-color: rgba(95, 95, 112, 0.134);
+}
+
+.flex > div:first-of-type > div:last-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding:50px;
+    margin-bottom: 15px;
+    background-color: rgba(95, 95, 112, 0.494);
+}
+
+
+.flex > div:nth-of-type(2) > div:first-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding:30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: rgba(95, 95, 112, 0.494);
+}
+
+.flex > div:nth-of-type(2) > div:last-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding:65px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: rgba(95, 95, 112, 0.134);
+}
+
+.flex > div:nth-of-type(3) > div:first-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding:70px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color: rgba(95, 95, 112, 0.134);
+}
+
+
+.flex > div:nth-of-type(3) > div:last-of-type{
+    border: 1px solid rgb(100, 100, 152);
+    border-radius: 20px;
+    padding:30px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    background-color:rgba(95, 95, 112, 0.494);
+}
